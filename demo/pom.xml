@@ -17,6 +17,10 @@
 		<version>2.0.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<!-- Inherit defaults from Spring Boot -->
+	<!-- Inherit defaults from Spring Boot -->
+
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

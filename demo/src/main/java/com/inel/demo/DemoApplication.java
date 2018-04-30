@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
-	@RequestMapping("/")
+	@RequestMapping("/")//proporciona informacion de enrutamiento
 	String home() {
 		return "Hello World!";
 	}
-
+     private int suma;
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
